@@ -1,0 +1,33 @@
+* {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+button,
+select, 
+input {
+	border: 1px solid #ccc;
+	padding: 5px;
+	outline: 0;
+	background-color: #fff;
+}
+
+button {
+	transition: background-color 250ms linear, 
+				color 250ms linear, 
+				border 250ms linear;
+	cursor: pointer;
+	border: 1px solid #8c1515;
+}
+
+button:hover {
+	background-color: #8c1515;
+	color: #fff;
+}
+
+
+#answer {
+	font-size: 54px;
+	text-align: center;
+	background-color: #8c1515;
+	color: #fff;
+}
